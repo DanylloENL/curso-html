@@ -47,3 +47,13 @@ a {text-decoration: line-through;
 .post_image {
     margin-bottom: 15px;
 }
+
+.list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.list li a{
+    text-decoration: none;
+}
+}
