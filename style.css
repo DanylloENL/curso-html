@@ -1,5 +1,5 @@
 body {
-    background: #cccccc;
+    background: #A0522D;
     font-family: Verdana;
     max-width: 900px;
     margin: auto;
@@ -7,12 +7,12 @@ body {
 
 .photo{
     border:5px solid #505050;
-    border-radius: 50%;
+    border-radius: 20%;
 
 }
 
 #title, .subtitle, .post_title{
-    color: #000;
+    color: #ffffff;
 }
 
 #title {
@@ -20,24 +20,20 @@ body {
     text-transform: uppercase;
 }
 
-a {text-decoration: line-through;
-    color: #000000;
-
-}
-
 .post_title {
     font-size: 16px;
-    font-style: italic;
     margin: 0;
     margin-bottom: 25px;
+    color: black;  
 }
 
 .post {
-    background: #FFF;
+
     padding: 15px;
     border: 3px solid #000000;
     margin-bottom: 15px;
     border-radius: 5px;
+    background: #F5DEB3;
 }
 
 .post_content {
@@ -45,19 +41,23 @@ a {text-decoration: line-through;
     margin-bottom: 25px;
     text-transform: capitalize;
     text-align: center;
+    color: #000000;
+    
 }
 
 .post_image {
     margin-bottom: 15px;
     width: 100%;
+    
 }
 
 .list {
     list-style-type: none;
     padding-left: 15px;
+    
 }
 
 .list li a{
     text-decoration: none;
-}
+    color: #ffffff;
 }
